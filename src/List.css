@@ -1,0 +1,27 @@
+.customerList {
+    cursor: pointer;
+    border: 1px solid #dedfe2;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .customerList.activeDiv {
+    background-color: #eeeeee;
+    color: grey;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #b0b0b0; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
